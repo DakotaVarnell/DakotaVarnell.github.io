@@ -1,0 +1,493 @@
+/*************************************************************************************************************************************/
+/*PLAY PAGE*/
+/* This is where all of my hello title, about me title, and paragraph will go */
+html
+{
+    overflow-x: hidden;
+}
+
+body 
+{
+  height: 50vh;
+}
+
+.helloTitle
+{
+   font-size: 40pt;
+   color: white;
+   font-family: 'Press Start 2P';
+}
+
+.aboutMeTitle
+{
+    font-size: 30pt;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.introductionParagraph
+{
+    font-size: 16pt;
+    font-family: 'Roboto Mono', monospace;
+    color: #1B1A17;
+}
+
+/*My most General tags to style */
+.mainBody
+{
+    background-color: #E6D5B8;
+    background-image: url(images/background.jpg)
+}
+
+/*the style of our play button*/
+.playButton
+{
+    font-size: 50pt;
+    font-family: 'Press Start 2P';
+    background-color: #F0A500;
+    width: 400px;
+    border-color: black;
+    border-width: 4px;
+    position: relative;
+    top: 250px;
+    left: 0px;
+}
+.playButton:hover
+{
+    background-color: #E45826;
+    box-shadow: 0 8px 12px 0 rgba(34,60,80,.16);
+}
+
+/* Center child elements */
+body,
+.website-counter 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.playerTitle
+{
+    font-size: 20pt;
+    color: white;
+    font-family: 'Press Start 2P';
+    position: absolute;
+}
+
+/* Styles for website counter container */
+.website-counter {
+  background-color:#1B1A17;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+  font-family: 'Press Start 2P';
+}
+/*************************************************************************************************************************************/
+
+
+
+
+/*************************************************************************************************************************************/
+/*LANDINg PAGE*/
+/* GLOBAL STYLES */
+body{
+    background:#E6D5B8;
+    background-size: cover;
+    font-family: 'Press Start 2P'; 
+    padding-top: 150px;
+  }
+  .container{
+    display: inline-block;
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid #E45826;
+    white-space: nowrap;
+    animation: 
+      typing 4s forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  .mainText
+  {
+      color:#1B1A17;
+      font-family: 'Press Start 2P';
+      line-height: 3em;
+  }
+
+  .aboutMe
+  {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .aboutMe h2
+  {
+    color:#1B1A17;
+    font-family: 'Press Start 2P';
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .aboutMe p
+  {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    
+  }
+
+  .lp-projects-button
+  {
+    font-size: 30pt;
+    font-family: 'Press Start 2P';
+    background-color: #F0A500;
+    border-color: black;
+    border-width: 4px;
+    position: relative;
+    top: 95px;
+    left: 0px;
+    
+  }
+
+  .lp-contact-button
+  {
+    font-size: 30pt;
+    font-family: 'Press Start 2P';
+    background-color: #F0A500;
+    border-color: black;
+    border-width: 4px;
+    position: relative;
+    top: 95px;
+    left: 0px;   
+  }
+
+  .lp-projects-button:hover
+  {
+    background-color: #E45826;
+    box-shadow: 0 8px 12px 0 rgba(34,60,80,.16);
+  }
+
+  .lp-contact-button:hover
+  {
+    background-color: #E45826;
+    box-shadow: 0 8px 12px 0 rgba(34,60,80,.16);
+  }
+
+/*************************************************************************************************************************************/
+
+
+
+
+/*************************************************************************************************************************************/
+/*CONTACT PAGE*/
+.contact-header
+{
+  display: inline-block;
+  color:#1B1A17;
+  font-family: 'Press Start 2P';
+  font-size: 5rem;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.linkedin-title
+{
+  position: relative;
+  top: 90px;
+  left: -190px;
+  font-size: 1rem;
+
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 20px;
+  border-color: black;
+  position: relative;
+  top: 100px;
+  left: -200px;
+}
+
+.fa-linkedin:hover
+{
+  transform: translateY(-4px);
+  background-color: white;
+  color: #007bb5;
+
+}
+
+.github-title
+{
+  position: relative;
+  top: -82px;
+  left: 100px;
+  font-size: 1rem;
+  
+}
+
+.fa-github
+{
+  background: #6e5494;
+  color: black;
+  border-radius: 20px;
+  border-color: black;
+  position: relative;
+  top: -73px;
+  left: 100px;
+}
+
+.fa-github:hover
+{
+  transform: translateY(-4px);
+  color:#6e5494;
+  background-color: #1B1A17;
+}
+
+.contact-home-button
+  {
+    font-size: 30pt;
+    font-family: 'Press Start 2P';
+    background-color: #F0A500;
+    border-color: black;
+    border-width: 4px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    
+  }
+
+  .contact-projects-button
+  {
+    font-size: 30pt;
+    font-family: 'Press Start 2P';
+    background-color: #F0A500;
+    border-color: black;
+    border-width: 4px;
+    position: relative;
+    top: 150px;
+    left: -150px;   
+  }
+
+  .contact-projects-button:hover
+  {
+    background-color: #E45826;
+    box-shadow: 0 8px 12px 0 rgba(34,60,80,.16);
+  }
+
+  .contact-home-button:hover
+  {
+    background-color: #E45826;
+    box-shadow: 0 8px 12px 0 rgba(34,60,80,.16);
+  }
+/*************************************************************************************************************************************/
+
+
+
+
+/*************************************************************************************************************************************/
+/*PROJECTS PAGE*/
+html
+{
+  overflow-y: hidden;
+}
+.project-list-container
+{
+  font-size: 2rem;
+}
+
+.project-list-1
+{
+  list-style-type: none;
+  line-height: 400px;
+  position: relative;
+  top: 380px;
+  left: -320px;
+
+}
+
+.project1
+{
+  /*Placeholder*/
+  position: relative;
+
+}
+
+.project3
+{
+    /*Placeholder*/
+  position: relative;
+
+
+}
+
+.project-list-2
+{
+  list-style-type: none;
+  line-height: 400px;
+  position: relative;
+  top: -450px;
+  left: 250px;
+}
+
+.project2
+{
+    /*Placeholder*/
+  position: relative;
+
+
+}
+
+.project4
+{
+    /*Placeholder*/
+  position: relative;
+
+
+}
+
+.bst-image
+{
+  width: auto;
+  height: 200px;
+  position: absolute;
+  top: 120px;
+  left: 320px;
+}
+
+.bst-image:hover
+{
+  opacity: 0.5;
+}
+
+.bst-title
+{
+  position: absolute;
+  top: 330px;
+  left: 280px;
+  font-size: .8rem;
+}
+
+.inventory-management-image
+{
+  width: auto;
+  height: 200px;
+  position: absolute;
+  top: 120px;
+  left: 900px;
+}
+
+.inventory-management-image:hover
+{
+  opacity: 0.5;
+}
+
+.inventory-title
+{
+  position: absolute;
+  top: 330px;
+  left: 850px;
+  font-size: .8rem;
+}
+
+
+.linked-list-image
+{
+  width: auto;
+  height: 200px;
+  position: absolute;
+  top: 500px;
+  left: 335px;
+}
+
+.linked-list-image:hover
+{
+  opacity: 0.5;
+}
+
+.linked-list-title
+{
+  position: relative;
+  top: -430px;
+  left: -300px;
+  font-size: .8rem;
+}
+
+.backend-image
+{
+  width: auto;
+  height: 200px;
+  position: absolute;
+  top: 490px;
+  left: 900px;
+}
+
+.backend-image:hover
+{
+  opacity: 0.5;
+}
+
+.backend-title
+{
+  position: relative;
+  top: -480px;
+  left: 270px;
+  font-size: .8rem;
+}
+
+.home-button
+  {
+    font-size: 30pt;
+    font-family: 'Press Start 2P';
+    background-color: #F0A500;
+    border-color: black;
+    border-width: 4px;
+    position: relative;
+    top: -450px;
+    left: -300px;
+    
+  }
+
+  .contact-button
+  {
+    font-size: 30pt;
+    font-family: 'Press Start 2P';
+    background-color: #F0A500;
+    border-color: black;
+    border-width: 4px;
+    position: relative;
+    top: -400px;
+    left: 280px;   
+  }
+
+  .home-button:hover
+  {
+    background-color: #E45826;
+    box-shadow: 0 8px 12px 0 rgba(34,60,80,.16);
+  }
+
+  .contact-button:hover
+  {
+    background-color: #E45826;
+    box-shadow: 0 8px 12px 0 rgba(34,60,80,.16);
+  }
+/*************************************************************************************************************************************/
